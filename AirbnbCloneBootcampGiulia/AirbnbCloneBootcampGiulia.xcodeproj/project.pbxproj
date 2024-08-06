@@ -9,19 +9,39 @@
 /* Begin PBXBuildFile section */
 		16C8509A2C61AC750097F14F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C850992C61AC750097F14F /* AppDelegate.swift */; };
 		16C8509C2C61AC750097F14F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C8509B2C61AC750097F14F /* SceneDelegate.swift */; };
-		16C8509E2C61AC750097F14F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C8509D2C61AC750097F14F /* ViewController.swift */; };
+		16C8509E2C61AC750097F14F /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C8509D2C61AC750097F14F /* ExploreViewController.swift */; };
 		16C850A32C61AC780097F14F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C850A22C61AC780097F14F /* Assets.xcassets */; };
 		16C850A62C61AC780097F14F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 16C850A52C61AC780097F14F /* Base */; };
+		16C850AF2C61B0690097F14F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C850AE2C61B0690097F14F /* MainTabBarController.swift */; };
+		16C850B82C61B2060097F14F /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C850B72C61B2060097F14F /* FavoriteViewController.swift */; };
+		16C850BA2C61B2230097F14F /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C850B92C61B2230097F14F /* TravelViewController.swift */; };
+		16C850BC2C61B24D0097F14F /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C850BB2C61B24D0097F14F /* MessageViewController.swift */; };
+		16C850BE2C61B2730097F14F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C850BD2C61B2730097F14F /* ProfileViewController.swift */; };
+		16C850C12C61B8390097F14F /* ExploreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C850C02C61B8390097F14F /* ExploreScreen.swift */; };
+		16C850C42C61B9010097F14F /* FavoriteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C850C32C61B9010097F14F /* FavoriteScreen.swift */; };
+		16C850C72C61B92E0097F14F /* TravelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C850C62C61B92E0097F14F /* TravelScreen.swift */; };
+		16C850CA2C61B96B0097F14F /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C850C92C61B96B0097F14F /* ProfileScreen.swift */; };
+		16C850CD2C61B9860097F14F /* MessageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C850CC2C61B9850097F14F /* MessageScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16C850962C61AC750097F14F /* AirbnbCloneBootcampGiulia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbCloneBootcampGiulia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C850992C61AC750097F14F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16C8509B2C61AC750097F14F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		16C8509D2C61AC750097F14F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16C8509D2C61AC750097F14F /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		16C850A22C61AC780097F14F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16C850A52C61AC780097F14F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16C850A72C61AC780097F14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C850AE2C61B0690097F14F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		16C850B72C61B2060097F14F /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		16C850B92C61B2230097F14F /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
+		16C850BB2C61B24D0097F14F /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		16C850BD2C61B2730097F14F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		16C850C02C61B8390097F14F /* ExploreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreScreen.swift; sourceTree = "<group>"; };
+		16C850C32C61B9010097F14F /* FavoriteScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteScreen.swift; sourceTree = "<group>"; };
+		16C850C62C61B92E0097F14F /* TravelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelScreen.swift; sourceTree = "<group>"; };
+		16C850C92C61B96B0097F14F /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		16C850CC2C61B9850097F14F /* MessageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,112 @@
 		16C850982C61AC750097F14F /* AirbnbCloneBootcampGiulia */ = {
 			isa = PBXGroup;
 			children = (
+				16C850B42C61B15B0097F14F /* Profile */,
+				16C850B32C61B1520097F14F /* Message */,
+				16C850B22C61B14B0097F14F /* Travel */,
+				16C850B12C61B1390097F14F /* Favorite */,
+				16C850B02C61B11C0097F14F /* Explore */,
+				16C850AD2C61B0400097F14F /* MainTabBarController */,
 				16C850992C61AC750097F14F /* AppDelegate.swift */,
 				16C8509B2C61AC750097F14F /* SceneDelegate.swift */,
-				16C8509D2C61AC750097F14F /* ViewController.swift */,
 				16C850A22C61AC780097F14F /* Assets.xcassets */,
 				16C850A42C61AC780097F14F /* LaunchScreen.storyboard */,
 				16C850A72C61AC780097F14F /* Info.plist */,
 			);
 			path = AirbnbCloneBootcampGiulia;
+			sourceTree = "<group>";
+		};
+		16C850AD2C61B0400097F14F /* MainTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				16C850AE2C61B0690097F14F /* MainTabBarController.swift */,
+			);
+			path = MainTabBarController;
+			sourceTree = "<group>";
+		};
+		16C850B02C61B11C0097F14F /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				16C850BF2C61B8220097F14F /* ExploreScreen */,
+				16C8509D2C61AC750097F14F /* ExploreViewController.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		16C850B12C61B1390097F14F /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				16C850C22C61B8C20097F14F /* FavoriteScreen */,
+				16C850B72C61B2060097F14F /* FavoriteViewController.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		16C850B22C61B14B0097F14F /* Travel */ = {
+			isa = PBXGroup;
+			children = (
+				16C850C52C61B9140097F14F /* TravelScreen */,
+				16C850B92C61B2230097F14F /* TravelViewController.swift */,
+			);
+			path = Travel;
+			sourceTree = "<group>";
+		};
+		16C850B32C61B1520097F14F /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				16C850CB2C61B9700097F14F /* MessageScreen */,
+				16C850BB2C61B24D0097F14F /* MessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		16C850B42C61B15B0097F14F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				16C850C82C61B9570097F14F /* ProfileScreen */,
+				16C850BD2C61B2730097F14F /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		16C850BF2C61B8220097F14F /* ExploreScreen */ = {
+			isa = PBXGroup;
+			children = (
+				16C850C02C61B8390097F14F /* ExploreScreen.swift */,
+			);
+			path = ExploreScreen;
+			sourceTree = "<group>";
+		};
+		16C850C22C61B8C20097F14F /* FavoriteScreen */ = {
+			isa = PBXGroup;
+			children = (
+				16C850C32C61B9010097F14F /* FavoriteScreen.swift */,
+			);
+			path = FavoriteScreen;
+			sourceTree = "<group>";
+		};
+		16C850C52C61B9140097F14F /* TravelScreen */ = {
+			isa = PBXGroup;
+			children = (
+				16C850C62C61B92E0097F14F /* TravelScreen.swift */,
+			);
+			path = TravelScreen;
+			sourceTree = "<group>";
+		};
+		16C850C82C61B9570097F14F /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				16C850C92C61B96B0097F14F /* ProfileScreen.swift */,
+			);
+			path = ProfileScreen;
+			sourceTree = "<group>";
+		};
+		16C850CB2C61B9700097F14F /* MessageScreen */ = {
+			isa = PBXGroup;
+			children = (
+				16C850CC2C61B9850097F14F /* MessageScreen.swift */,
+			);
+			path = MessageScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +252,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16C8509E2C61AC750097F14F /* ViewController.swift in Sources */,
+				16C850B82C61B2060097F14F /* FavoriteViewController.swift in Sources */,
+				16C850CD2C61B9860097F14F /* MessageScreen.swift in Sources */,
+				16C8509E2C61AC750097F14F /* ExploreViewController.swift in Sources */,
 				16C8509A2C61AC750097F14F /* AppDelegate.swift in Sources */,
+				16C850BA2C61B2230097F14F /* TravelViewController.swift in Sources */,
+				16C850BC2C61B24D0097F14F /* MessageViewController.swift in Sources */,
+				16C850AF2C61B0690097F14F /* MainTabBarController.swift in Sources */,
 				16C8509C2C61AC750097F14F /* SceneDelegate.swift in Sources */,
+				16C850CA2C61B96B0097F14F /* ProfileScreen.swift in Sources */,
+				16C850BE2C61B2730097F14F /* ProfileViewController.swift in Sources */,
+				16C850C12C61B8390097F14F /* ExploreScreen.swift in Sources */,
+				16C850C42C61B9010097F14F /* FavoriteScreen.swift in Sources */,
+				16C850C72C61B92E0097F14F /* TravelScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
