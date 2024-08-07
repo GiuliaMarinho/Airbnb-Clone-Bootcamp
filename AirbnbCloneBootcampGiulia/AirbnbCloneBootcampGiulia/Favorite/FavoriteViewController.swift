@@ -9,11 +9,17 @@ import Foundation
 import UIKit
 
 class FavoriteViewController: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .black
 
-    }
+  var screen: FavoriteScreen?
+
+  override func loadView() {
+    screen = FavoriteScreen()
+    view = screen
+  }
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+
+  }
+
 }
-

@@ -9,11 +9,19 @@ import Foundation
 import UIKit
 
 class ProfileViewController: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .systemPink
 
-    }
+  var screen: ProfileScreen?
+
+  override func loadView() {
+    screen = ProfileScreen()
+    view = screen
+  }
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+
+  }
+
 }
+
 

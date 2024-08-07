@@ -9,9 +9,18 @@ import Foundation
 import UIKit
 
 class MessageViewController: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .green
-    }
+
+  var screen: MessageScreen?
+
+  override func loadView() {
+    screen = MessageScreen()
+    view = screen
+  }
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+
+  }
+
 }
+

@@ -9,10 +9,17 @@ import Foundation
 import UIKit
 
 class ExploreViewController: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .white
-    }
-}
 
+  var screen: ExploreScreen?
+
+  override func loadView() {
+    screen = ExploreScreen()
+    view = screen
+  }
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  
+  }
+
+}

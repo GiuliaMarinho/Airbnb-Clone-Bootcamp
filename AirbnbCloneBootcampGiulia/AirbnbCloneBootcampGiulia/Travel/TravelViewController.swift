@@ -5,15 +5,23 @@
 //  Created by Giulia Marinho on 05/08/24.
 //
 
+
 import Foundation
 import UIKit
 
 class TravelViewController: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .lightGray
 
-    }
+  var screen: TravelScreen?
+
+  override func loadView() {
+    screen = TravelScreen()
+    view = screen
+  }
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  
+  }
+
 }
 
