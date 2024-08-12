@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		166953802C6AC006008E4DA1 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1669537F2C6AC006008E4DA1 /* SearchBarView.swift */; };
 		16C8509A2C61AC750097F14F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C850992C61AC750097F14F /* AppDelegate.swift */; };
 		16C8509C2C61AC750097F14F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C8509B2C61AC750097F14F /* SceneDelegate.swift */; };
 		16C8509E2C61AC750097F14F /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C8509D2C61AC750097F14F /* ExploreViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1669537F2C6AC006008E4DA1 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		16C850962C61AC750097F14F /* AirbnbCloneBootcampGiulia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbCloneBootcampGiulia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C850992C61AC750097F14F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16C8509B2C61AC750097F14F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1669537E2C6ABFEC008E4DA1 /* SearchBarView */ = {
+			isa = PBXGroup;
+			children = (
+				1669537F2C6AC006008E4DA1 /* SearchBarView.swift */,
+			);
+			path = SearchBarView;
+			sourceTree = "<group>";
+		};
 		16C8508D2C61AC750097F14F = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +84,7 @@
 		16C850982C61AC750097F14F /* AirbnbCloneBootcampGiulia */ = {
 			isa = PBXGroup;
 			children = (
+				1669537E2C6ABFEC008E4DA1 /* SearchBarView */,
 				16C850B42C61B15B0097F14F /* Profile */,
 				16C850B32C61B1520097F14F /* Message */,
 				16C850B22C61B14B0097F14F /* Travel */,
@@ -262,6 +273,7 @@
 				16C8509C2C61AC750097F14F /* SceneDelegate.swift in Sources */,
 				16C850CA2C61B96B0097F14F /* ProfileScreen.swift in Sources */,
 				16C850BE2C61B2730097F14F /* ProfileViewController.swift in Sources */,
+				166953802C6AC006008E4DA1 /* SearchBarView.swift in Sources */,
 				16C850C12C61B8390097F14F /* ExploreScreen.swift in Sources */,
 				16C850C42C61B9010097F14F /* FavoriteScreen.swift in Sources */,
 				16C850C72C61B92E0097F14F /* TravelScreen.swift in Sources */,

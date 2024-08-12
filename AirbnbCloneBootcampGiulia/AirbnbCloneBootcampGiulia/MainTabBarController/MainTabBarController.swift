@@ -39,4 +39,3 @@ class MainTabBarController: UITabBarController {
     tabBar.isTranslucent = false
   }
 }
-
