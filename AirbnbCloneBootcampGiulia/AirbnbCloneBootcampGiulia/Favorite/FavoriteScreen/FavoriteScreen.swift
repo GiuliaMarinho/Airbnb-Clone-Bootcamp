@@ -15,6 +15,7 @@ class FavoriteScreen: UIView {
     view.translatesAutoresizingMaskIntoConstraints = false
     view.backgroundColor = .white
     view.layer.cornerRadius = 30
+    // sombra
     view.layer.shadowColor = UIColor.black.cgColor
     view.layer.shadowOpacity = 0.1
     view.layer.shadowOffset = CGSize(width: 0, height: 2)

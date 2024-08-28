@@ -27,6 +27,7 @@ class MainTabBarController: UITabBarController {
     let navController = UINavigationController(rootViewController: vc)
     navController.tabBarItem.title = title
     navController.tabBarItem.image = UIImage(systemName: imageName)
+    navController.isNavigationBarHidden = true
     return navController
   }
 
@@ -39,3 +40,4 @@ class MainTabBarController: UITabBarController {
     tabBar.isTranslucent = false
   }
 }
+

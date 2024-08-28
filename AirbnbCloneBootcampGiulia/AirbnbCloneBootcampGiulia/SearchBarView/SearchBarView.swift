@@ -70,3 +70,4 @@ class SearchBarView: UIView {
   }
 
 }
+

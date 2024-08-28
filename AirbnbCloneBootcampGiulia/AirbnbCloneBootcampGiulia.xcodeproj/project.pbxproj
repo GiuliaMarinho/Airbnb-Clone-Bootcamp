@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		166953802C6AC006008E4DA1 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1669537F2C6AC006008E4DA1 /* SearchBarView.swift */; };
+		16A27C702C7FED930080AD48 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A27C6F2C7FED930080AD48 /* ExploreViewModel.swift */; };
+		16A27C722C7FEDC20080AD48 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A27C712C7FEDC20080AD48 /* CategoryCollectionViewCell.swift */; };
+		16A27C742C7FEDDF0080AD48 /* TravelCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A27C732C7FEDDF0080AD48 /* TravelCategory.swift */; };
+		16A27C762C7FEDF70080AD48 /* PropertyDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A27C752C7FEDF70080AD48 /* PropertyDataModel.swift */; };
 		16C8509A2C61AC750097F14F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C850992C61AC750097F14F /* AppDelegate.swift */; };
 		16C8509C2C61AC750097F14F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C8509B2C61AC750097F14F /* SceneDelegate.swift */; };
 		16C8509E2C61AC750097F14F /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C8509D2C61AC750097F14F /* ExploreViewController.swift */; };
@@ -27,6 +31,10 @@
 
 /* Begin PBXFileReference section */
 		1669537F2C6AC006008E4DA1 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		16A27C6F2C7FED930080AD48 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		16A27C712C7FEDC20080AD48 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		16A27C732C7FEDDF0080AD48 /* TravelCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCategory.swift; sourceTree = "<group>"; };
+		16A27C752C7FEDF70080AD48 /* PropertyDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDataModel.swift; sourceTree = "<group>"; };
 		16C850962C61AC750097F14F /* AirbnbCloneBootcampGiulia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbCloneBootcampGiulia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C850992C61AC750097F14F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16C8509B2C61AC750097F14F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +71,23 @@
 				1669537F2C6AC006008E4DA1 /* SearchBarView.swift */,
 			);
 			path = SearchBarView;
+			sourceTree = "<group>";
+		};
+		16A27C6D2C7FECBD0080AD48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16A27C732C7FEDDF0080AD48 /* TravelCategory.swift */,
+				16A27C752C7FEDF70080AD48 /* PropertyDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16A27C6E2C7FECD40080AD48 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				16A27C712C7FEDC20080AD48 /* CategoryCollectionViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		16C8508D2C61AC750097F14F = {
@@ -111,8 +136,11 @@
 		16C850B02C61B11C0097F14F /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				16A27C6D2C7FECBD0080AD48 /* Model */,
+				16A27C6E2C7FECD40080AD48 /* Cell */,
 				16C850BF2C61B8220097F14F /* ExploreScreen */,
 				16C8509D2C61AC750097F14F /* ExploreViewController.swift */,
+				16A27C6F2C7FED930080AD48 /* ExploreViewModel.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -263,15 +291,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16A27C722C7FEDC20080AD48 /* CategoryCollectionViewCell.swift in Sources */,
 				16C850B82C61B2060097F14F /* FavoriteViewController.swift in Sources */,
 				16C850CD2C61B9860097F14F /* MessageScreen.swift in Sources */,
 				16C8509E2C61AC750097F14F /* ExploreViewController.swift in Sources */,
 				16C8509A2C61AC750097F14F /* AppDelegate.swift in Sources */,
 				16C850BA2C61B2230097F14F /* TravelViewController.swift in Sources */,
 				16C850BC2C61B24D0097F14F /* MessageViewController.swift in Sources */,
+				16A27C702C7FED930080AD48 /* ExploreViewModel.swift in Sources */,
 				16C850AF2C61B0690097F14F /* MainTabBarController.swift in Sources */,
+				16A27C742C7FEDDF0080AD48 /* TravelCategory.swift in Sources */,
 				16C8509C2C61AC750097F14F /* SceneDelegate.swift in Sources */,
 				16C850CA2C61B96B0097F14F /* ProfileScreen.swift in Sources */,
+				16A27C762C7FEDF70080AD48 /* PropertyDataModel.swift in Sources */,
 				16C850BE2C61B2730097F14F /* ProfileViewController.swift in Sources */,
 				166953802C6AC006008E4DA1 /* SearchBarView.swift in Sources */,
 				16C850C12C61B8390097F14F /* ExploreScreen.swift in Sources */,
