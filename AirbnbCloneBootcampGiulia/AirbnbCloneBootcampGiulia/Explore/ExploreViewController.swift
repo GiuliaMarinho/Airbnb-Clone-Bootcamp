@@ -59,11 +59,13 @@ extension ExploreViewController: UICollectionViewDataSource, UICollectionViewDel
 
 extension ExploreViewController: UITableViewDelegate, UITableViewDataSource {
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return 0
+    return viewModel.numberOfRowsPropertyData
   }
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    return UITableViewCell()
+    guard let cell = tableView.dequeueReusableCell(withIdentifier: DestinationTableViewCell.identifier, for: indexPath) as? DestinationTableViewCell else { return UITableViewCell() }
+    cell.setupCell(data: viewModel.loadCurrentPropertyData(indexPath: indexPath))
+    return cell
   }
 }
 
